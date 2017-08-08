@@ -4,22 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace adventureProject
+namespace Adventure
+
 {
     class Item
     {
-        //declare class variables
         private string title;
         private string desc;
         private int qnt;
         private int weight;
 
-        //initialize constructors
         public string Title { get { return title; } set { title = value; } }
-
-        public string Desc { get { return desc; } set { desc = value; } }
-
-        public int Qnt { get { return qnt; } set { qnt = value; } }
 
         public int Weight { get { return weight; } set { weight = value; } }
 
@@ -30,7 +25,6 @@ namespace adventureProject
             Desc = des;
             Qnt = q;
             Weight = w;
-
         }
 
     }
